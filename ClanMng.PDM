@@ -1,0 +1,162 @@
+[Root]
+Most Recent Package=Clan Manager
+
+
+[Package|Clan Manager|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=C:\Program Files\Microsoft Visual Studio\VB98\Clan MNG\Setup2
+
+[Package|Clan Manager|Configure DAO ISAMs]
+Applicable=No
+
+[Package|Clan Manager|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|Clan Manager|Files Found]
+
+[Package|Clan Manager|Files Released]
+
+[Package|Clan Manager|Missing Dependency Information]
+C:\Program Files\Common Files\System\ADO\msado20.tlb=
+C:\Program Files\Microsoft Visual Studio\VB98\Clan MNG\TAB CONTROL.ocx=
+C:\WINDOWS\system32\uxtheme.dll=
+C:\WINDOWS\system32\msimg32.dll=
+
+[Package|Clan Manager|Out-of-Date Dependency Information]
+C:\WINDOWS\system32\COMCT332.OCX=
+C:\WINDOWS\system32\msstdfmt.dll=
+C:\WINDOWS\system32\msmask32.ocx=
+C:\WINDOWS\system32\MSWINSCK.OCX=
+C:\WINDOWS\system32\mschrt20.ocx=
+C:\WINDOWS\system32\RICHTX32.OCX=
+C:\WINDOWS\system32\MSINET.OCX=
+C:\WINDOWS\system32\mscomct2.ocx=
+C:\WINDOWS\system32\MSCOMCTL.OCX=
+C:\WINDOWS\system32\COMDLG32.OCX=
+
+[Package|Clan Manager|Files Added]
+c:\program files\microsoft visual studio\vb98\clan mng\members.dat=
+c:\program files\microsoft visual studio\vb98\clan mng\clanwars.dat=
+
+[Package|Clan Manager|Files Removed]
+
+[Package|Clan Manager|Files In Project]
+C:\Program Files\Microsoft Visual Studio\VB98\Clan MNG\Clan Manager.exe=Yes
+C:\WINDOWS\system32\msvbvm60.dll=Yes
+C:\WINDOWS\system32\oleaut32.dll=Yes
+C:\WINDOWS\system32\olepro32.dll=Yes
+C:\WINDOWS\system32\asycfilt.dll=Yes
+C:\WINDOWS\system32\stdole2.tlb=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\WINDOWS\system32\TABCTL32.OCX=Yes
+C:\WINDOWS\system32\MSFLXGRD.OCX=Yes
+C:\WINDOWS\system32\COMDLG32.OCX=Yes
+C:\WINDOWS\system32\MSCOMCTL.OCX=Yes
+C:\WINDOWS\system32\mscomct2.ocx=Yes
+C:\WINDOWS\system32\MSINET.OCX=Yes
+C:\WINDOWS\system32\RICHTX32.OCX=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\RICHED32.DLL=Yes
+C:\WINDOWS\system32\mschrt20.ocx=Yes
+C:\WINDOWS\system32\MSWINSCK.OCX=Yes
+C:\WINDOWS\system32\MSMAPI32.OCX=Yes
+C:\WINDOWS\system32\MCI32.OCX=Yes
+C:\WINDOWS\system32\PICCLP32.OCX=Yes
+C:\WINDOWS\system32\SYSINFO.OCX=Yes
+C:\WINDOWS\system32\MSCOMM32.OCX=Yes
+C:\WINDOWS\system32\msmask32.ocx=Yes
+C:\WINDOWS\system32\MSDATGRD.OCX=Yes
+C:\WINDOWS\system32\msstdfmt.dll=Yes
+C:\WINDOWS\system32\MSDATLST.OCX=Yes
+C:\WINDOWS\system32\COMCT332.OCX=Yes
+C:\WINDOWS\system32\MSADODC.OCX=Yes
+C:\WINDOWS\system32\MSHFLXGD.OCX=Yes
+C:\Program Files\Common Files\System\ADO\msado20.tlb=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\WINDOWS\system32\VB6STKIT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Clan MNG\Members.dat=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Clan MNG\ClanWars.dat=Yes
+C:\WINDOWS\system32\msimg32.dll=Yes
+C:\WINDOWS\system32\uxtheme.dll=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Clan MNG\TAB CONTROL.ocx=Yes
+
+[Package|Clan Manager|Configure Registry Files]
+Applicable=No
+
+[Package|Clan Manager|Configure Remote Servers]
+Applicable=No
+
+[Package|Clan Manager|Install Locations]
+C:\Program Files\Microsoft Visual Studio\VB98\Clan MNG\Clan Manager.exe=$(AppPath)
+C:\WINDOWS\system32\msvbvm60.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\oleaut32.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\olepro32.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\asycfilt.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\stdole2.tlb=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\system32\TABCTL32.OCX=$(WinSysPath)
+C:\WINDOWS\system32\MSFLXGRD.OCX=$(WinSysPath)
+C:\WINDOWS\system32\COMDLG32.OCX=$(WinSysPath)
+C:\WINDOWS\system32\MSCOMCTL.OCX=$(WinSysPath)
+C:\WINDOWS\system32\mscomct2.ocx=$(WinSysPath)
+C:\WINDOWS\system32\MSINET.OCX=$(WinSysPath)
+C:\WINDOWS\system32\RICHTX32.OCX=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\RICHED32.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\system32\mschrt20.ocx=$(WinSysPath)
+C:\WINDOWS\system32\MSWINSCK.OCX=$(WinSysPath)
+C:\WINDOWS\system32\MSMAPI32.OCX=$(WinSysPath)
+C:\WINDOWS\system32\MCI32.OCX=$(WinSysPath)
+C:\WINDOWS\system32\PICCLP32.OCX=$(WinSysPath)
+C:\WINDOWS\system32\SYSINFO.OCX=$(WinSysPath)
+C:\WINDOWS\system32\MSCOMM32.OCX=$(WinSysPath)
+C:\WINDOWS\system32\msmask32.ocx=$(WinSysPath)
+C:\WINDOWS\system32\MSDATGRD.OCX=$(WinSysPath)
+C:\WINDOWS\system32\msstdfmt.dll=$(WinSysPath)
+C:\WINDOWS\system32\MSDATLST.OCX=$(WinSysPath)
+C:\WINDOWS\system32\COMCT332.OCX=$(WinSysPath)
+C:\WINDOWS\system32\MSADODC.OCX=$(WinSysPath)
+C:\WINDOWS\system32\MSHFLXGD.OCX=$(WinSysPath)
+C:\Program Files\Common Files\System\ADO\msado20.tlb=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINDOWS\system32\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Clan MNG\Members.dat=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Clan MNG\ClanWars.dat=$(AppPath)
+C:\WINDOWS\system32\msimg32.dll=$(WinSysPath)
+C:\WINDOWS\system32\uxtheme.dll=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Clan MNG\TAB CONTROL.ocx=$(WinSysPath)
+
+[Package|Clan Manager|Configure Shared Files]
+Applicable=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Clan MNG\Clan Manager.exe=No
+C:\Program Files\Microsoft Visual Studio\VB98\Clan MNG\Members.dat=No
+C:\Program Files\Microsoft Visual Studio\VB98\Clan MNG\ClanWars.dat=No
+
+[Package|Clan Manager|Distribution]
+Type=single
+Size=1.44 MB
+Title=Clan Manager
+
+[Package|Clan Manager|IconGroups]
+Group0=Clan Manager
+PrivateGroup0=True
+Parent0=$(Programs)
+
+[Package|Clan Manager|Clan Manager]
+Icon1="Clan Manager.exe"
+Title1=Clan Manager
+StartIn1=$(AppPath)
+Key1=Icon1
+
+[Package|Clan Manager|Package]
+PackageFolder=C:\Program Files\Microsoft Visual Studio\VB98\Clan MNG\Setup2
+ProjectFolder=C:\Program Files\Microsoft Visual Studio\VB98\Clan MNG
+ServerSideCab=
+File1=C:\Program Files\Microsoft Visual Studio\VB98\Clan MNG\Setup2\setup.exe
+File2=C:\Program Files\Microsoft Visual Studio\VB98\Clan MNG\Setup2\Setup.Lst
+File3=C:\Program Files\Microsoft Visual Studio\VB98\Clan MNG\Setup2\Clan Manager.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
